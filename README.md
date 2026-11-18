@@ -61,7 +61,7 @@ and overviews. The simple UI needs no login or external image service.
 
 A local Git repository is initialized for this project. The GitHub repository is
 https://github.com/Izanagi-x/genai-assignment-20-movie-recommender
-(code push is pending Git authentication). Deployment uses the
+Deployment uses the
 included `render.yaml` or the equivalent dashboard settings:
 
 - Build: `pip install -r requirements.txt`
@@ -71,7 +71,7 @@ included `render.yaml` or the equivalent dashboard settings:
 - Free web service, with no paid resources requested.
 
 **Current status: local implementation and tests; remote GitHub/Render steps
-pending Git authentication and Render account access. No live deployment URL
+pending Render account access. No live deployment URL
 has been produced yet.**
 After a repository is pushed and Render is connected, deploy it, open the live
 URL, and test at least the same three queries before marking Tasks 7–9 complete.
