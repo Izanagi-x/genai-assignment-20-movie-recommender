@@ -66,7 +66,7 @@ included `render.yaml` or the equivalent dashboard settings:
 
 - Build: `pip install -r requirements.txt`
 - Start: `streamlit run app.py --server.address 0.0.0.0 --server.port $PORT --server.headless true`
-- Python version: 3.14.2
+- Python version: 3.14.8
 - Health path: `/_stcore/health`
 - Free web service, with no paid resources requested.
 
