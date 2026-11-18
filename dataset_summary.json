@@ -1,0 +1,22 @@
+{
+  "raw_shape": [
+    4803,
+    20
+  ],
+  "tfidf_shape": [
+    4803,
+    5000
+  ],
+  "similarity_shape": [
+    4803,
+    4803
+  ],
+  "missing_overviews_replaced": 3,
+  "duplicate_titles_disambiguated": 3,
+  "max_features": 5000,
+  "ngram_range": [
+    1,
+    2
+  ],
+  "min_df": 2
+}
