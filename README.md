@@ -70,11 +70,16 @@ included `render.yaml` or the equivalent dashboard settings:
 - Health path: `/_stcore/health`
 - Free web service, with no paid resources requested.
 
-**Current status: local implementation and tests; remote GitHub/Render steps
-pending Render account access. No live deployment URL
-has been produced yet.**
-After a repository is pushed and Render is connected, deploy it, open the live
-URL, and test at least the same three queries before marking Tasks 7–9 complete.
+**Live application:** https://genai-assignment-20-movie-recommender.onrender.com/
+
+The project was committed locally and pushed to GitHub with Git. Render was
+connected to this repository and deployed from `main` on its Free web-service
+plan. The deployed service reported Live on 18 November 2026.
+
+The live UI was tested with Avatar, Toy Story and Fight Club. Each returned five
+recommendations, excluded the selected movie and matched the locally checked
+rankings and displayed scores. See `deployment_validation.md` for the results.
+A free Render instance may take around a minute to wake after inactivity.
 
 ## Observations
 
